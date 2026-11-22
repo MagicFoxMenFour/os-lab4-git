@@ -9,4 +9,4 @@ for n in "$@"; do
         exit 1
     fi
 done
-echo "Сумма: $(($1 + $2))"
+echo "Сумма: $(($1 * $2))"
